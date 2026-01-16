@@ -17,3 +17,4 @@ const squadre = [
     {nome:"Vasco", punti: 0, falli: 0},
 
 ] 
+console.table(squadre);
