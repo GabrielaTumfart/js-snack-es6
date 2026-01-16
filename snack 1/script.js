@@ -34,5 +34,5 @@ for (let bici of biciclette) {
 }
 
 //stampo il risultato
-console.log("La bici più leggera è:", biciPesoMinore, "con peso di:");
+console.log("La bici più leggera è:", biciPesoMinore.nome, "con peso di:" biciPesoMinore.peso "kg");
     
