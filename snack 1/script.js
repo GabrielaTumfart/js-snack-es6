@@ -20,7 +20,7 @@ const biciclette = [
 
 //faccio una variabile let per la bici più leggera
 
-let biciPesoMinore = biciclette [0];
+let biciPesoMinore = biciclette [];
 
 //schelgo il ciclo for of per confrontare i pesi delle bici
 
