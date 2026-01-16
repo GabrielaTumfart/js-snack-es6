@@ -27,7 +27,7 @@ let biciPesoMinore = biciclette [0];
 for (let bici of biciclette) {
     if(bici.peso < biciPesoMinore.peso) {
 
-        biciPesoMinore = bici;
+        biciPesoMinore === bici;
     }
 
 
