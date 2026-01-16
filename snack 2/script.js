@@ -36,14 +36,14 @@ const nomeEFalli = [ ];
 for (let squadra of squadre) {
     nomeEFalli.push({
         nome: squadra.nome,
-        falli: squadre.falli
+        falli: squadra.falli
 
-    })
+    });
 
 
 }
 
-/stampo in console
+//stampo in console
 console.log("Tutte le squadre:", squadre);
 console.log("Soltanto nomi e falli:", nomeEFalli);
 
