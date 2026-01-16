@@ -27,12 +27,12 @@ let biciPesoMinore = biciclette [0];
 for (let bici of biciclette) {
     if(bici.peso < biciPesoMinore.peso) {
 
-        biciPesoMinore === bici;
+        biciPesoMinore = bici;
     }
 
 
 }
 
 //stampo il risultato
-console.log("La bici più leggera è:", biciPesoMinore.nome, "con peso di:" biciPesoMinore.peso "kg");
+console.log("La bici più leggera è:", biciPesoMinore.nome, "con peso di:", biciPesoMinore.peso, "kg");
     
