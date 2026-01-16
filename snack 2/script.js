@@ -32,4 +32,8 @@ for(let squadra of squadre) {
     squadra.falli = numeroRandom(1, 30); //falli casuali da 1 a 30
 }
 
+// ora devo creare un nuovo array che contenga solo nome e falli subiti. Uso il map che ci ha insegnato Tiziano. e arrow function
+
+const nomiEFalli = squadre.map(squadra)
+
 
