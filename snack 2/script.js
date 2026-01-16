@@ -29,6 +29,6 @@ function numeroRandom(min, max), {
 
 for(let squadra of squadre), {
     squadra.punti = numeroRandom(1, 50); //punti casuali da 1 a 50
-    squadra.punti = numeroRandom(1, 50); //punti casuali da 1 a 50
+    squadra.falli = numeroRandom(1, 30); //falli casuali da 1 a 30
 }
 
