@@ -10,10 +10,10 @@
 // creo array di oggetti squadra
 
 const squadre = [ 
-    {nome:, punti: 0, falli: 0},
-    {nome:, punti: 0, falli: 0},
-    {nome:, punti: 0, falli: 0},
-    {nome:, punti: 0, falli: 0},
-    {nome:, punti: 0, falli: 0},
+    {nome:"Atletico", punti: 0, falli: 0},
+    {nome:"Cruzeiro", punti: 0, falli: 0},
+    {nome:"Flamengo", punti: 0, falli: 0},
+    {nome:"America", punti: 0, falli: 0},
+    {nome:"Vasco", punti: 0, falli: 0},
 
 ] 
