@@ -29,6 +29,21 @@ for (let squadra of squadre) {
 
 }
 
+//creo nuovo array con nome e falli
+
+const nomeEFalli = [ ];
+
+for (let squadra of squadre) {
+    nomeEFalli.push({
+        nome: squadra.nome,
+        falli: squadre.falli
+
+    })
+
+
+
+}
+
 
 
 
