@@ -11,10 +11,10 @@ stamparla in console
 
 const biciclette = [ 
     {nome: "Brasiliana", peso: 7.5},  // 0
-    {nome: "Italiana", peso: 9.2}    // 1
-    {nome: "Tedesca", peso: 6.8}     // 2
-    {nome: "Spagnola", peso: 7.1}    // 3
-    {nome: "Americana", peso: 6.5}   // 4
+    {nome: "Italiana", peso: 9.2},    // 1
+    {nome: "Tedesca", peso: 6.8},     // 2
+    {nome: "Spagnola", peso: 7.1},    // 3
+    {nome: "Americana", peso: 6.5},   // 4
 
 ] 
 
@@ -25,5 +25,6 @@ let biciPesoMinore = biciclette [0];
 //schelgo il ciclo for of per confrontare i pesi delle bici
 
 for (let bici of biciclette) {
+    
 
 }
