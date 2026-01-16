@@ -10,10 +10,20 @@ stamparla in console
 //creo l'array di oggetti:
 
 const biciclette = [ 
-    {nome: "Brasiliana", peso: 7.5}
-    {nome: "Italiana", peso: 9.2}
-    {nome: "Tedesca", peso: 6.8}
-    {nome: "Spagnola", peso: 7.1}
-    {nome: "Americana", peso: 6.5}
+    {nome: "Brasiliana", peso: 7.5}  // 0
+    {nome: "Italiana", peso: 9.2}    // 1
+    {nome: "Tedesca", peso: 6.8}     // 2
+    {nome: "Spagnola", peso: 7.1}    // 3
+    {nome: "Americana", peso: 6.5}   // 4
 
 ] 
+
+//faccio una variabile let per la bici più leggera
+
+let biciPesoMinore = biciclette [0];
+
+//schelgo il ciclo for of per confrontare i pesi delle bici
+
+for (let bici of biciclette) {
+    
+}
