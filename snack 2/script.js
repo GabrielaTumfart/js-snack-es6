@@ -22,5 +22,6 @@ console.table(squadre);
 //creo una funzione per generare un numero random tra min e max. La userò per reimpire i punti e i falli:
 
 function numeroRandom(min, max), {
-    
+    return Math.floor(Math.random() * (max - min +1));
+
 }
