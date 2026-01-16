@@ -19,21 +19,17 @@ const squadre = [
 ] 
 console.table(squadre);
 
-//creo una funzione per generare un numero random tra min e max. La userò per reimpire i punti e i falli:
+//ciclo for of
 
-function numeroRandom(min, max) {
-    return Math.floor(Math.random() * (max - min +1)) + min;
+for (let squadra of squadre) {
+    squadra.punti =Math.floor(Math.random() *50) + 1; //numeri casuali da 1 a 50
+
+    squadra.falli = Math.floor(Math.random() * 30) + 1; //numeri casuali da 1 a 30;
 
 
 }
 
-for(let squadra of squadre) {
-    squadra.punti = numeroRandom(1, 50); //punti casuali da 1 a 50
-    squadra.falli = numeroRandom(1, 30); //falli casuali da 1 a 30
-}
 
-// ora devo creare un nuovo array che contenga solo nome e falli subiti. Uso il map che ci ha insegnato Tiziano. e arrow function
 
-const nomiEFalli = squadre.map(squadra)
 
 
