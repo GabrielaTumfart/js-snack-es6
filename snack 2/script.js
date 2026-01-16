@@ -41,8 +41,13 @@ for (let squadra of squadre) {
     })
 
 
-
 }
+
+/stampo in console
+console.log("Tutte le squadre:", squadre);
+console.log();
+
+
 
 
 
