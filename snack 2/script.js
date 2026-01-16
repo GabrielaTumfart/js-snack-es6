@@ -5,4 +5,15 @@
  * Riempire Punti fatti e falli subiti con numero random.
  * creare un nuovo array con solo nome e falli subiti.
  * stampo in console
- *  */ */
+ *  */ 
+
+// creo array di oggetti squadra
+
+const squadre = [ 
+    {nome:, punti: 0, falli: 0},
+    {nome:, punti: 0, falli: 0},
+    {nome:, punti: 0, falli: 0},
+    {nome:, punti: 0, falli: 0},
+    {nome:, punti: 0, falli: 0},
+
+] 
